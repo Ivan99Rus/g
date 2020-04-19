@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
     <main>
 
         <div class="board">
@@ -42,7 +43,27 @@
             </table>
         </div>
 
+        <div class="result">
+            <div class="result-wrap">
+                <div class="step"></div>
+                <div class="time"></div>
+            </div>
+        </div>
+
+        <button class="btn">Начать заново!</button>
+
     </main>
+
+    <div id="my_modal" class="modal">
+        <div class="modal_content">
+            <p class="congratulations">Поздравляем, вы выиграли!</p>
+            <p class="result-text">
+                <span class="result-time"></span><br>
+                <span class="result-step"></span>
+            </p>
+            <button class="btn-modal">Начать заново!</button>
+        </div>
+    </div>
 
     <script src="js/main.js"></script>
 </body>
